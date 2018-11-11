@@ -1,0 +1,90 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+{\f007 Courier New;}
+{\f008 Courier New;}
+{\f009 Courier New;}
+{\f010 Courier New;}
+}
+
+{\colortbl
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red000\green128\blue000;
+\red255\green255\blue255;
+\red000\green128\blue000;
+\red255\green255\blue255;
+\red255\green128\blue000;
+\red255\green255\blue255;
+\red000\green000\blue255;
+\red255\green255\blue255;
+\red128\green128\blue128;
+\red255\green255\blue255;
+\red128\green064\blue000;
+\red255\green255\blue255;
+\red000\green000\blue128;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red128\green000\blue255;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+}
+
+\f0\fs20\cb21\cf20 \highlight3\cf2 /*-----------------------------------------------------------------------------\par
+-\tab \tab \tab \tab \tab           SE 185 Lab 02\par
+-             Developed for 185-Rursch by T.Tran and K.Wang\par
+-\tab Name:\par
+- \tab Section:\par
+-\tab NetID:\par
+-\tab Date:\par
+-----------------------------------------------------------------------------*/\highlight1\cf0 \par
+\par
+\highlight3\cf2 /*-----------------------------------------------------------------------------\par
+-\tab                             Includes\par
+-----------------------------------------------------------------------------*/\highlight1\cf0 \par
+\highlight13\cf12 #include <stdio.h>\par
+\highlight1\cf0 \par
+\par
+\highlight3\cf2 /*-----------------------------------------------------------------------------\par
+-\tab                             Defines\par
+-----------------------------------------------------------------------------*/\highlight1\cf0 \par
+\par
+\par
+\highlight3\cf2 /*-----------------------------------------------------------------------------\par
+-\tab                             Prototypes\par
+-----------------------------------------------------------------------------*/\highlight1\cf0 \par
+\par
+\par
+\highlight3\cf2 /*-----------------------------------------------------------------------------\par
+-\tab \tab \tab \tab \tab \tab \tab  Implementation\par
+-----------------------------------------------------------------------------*/\highlight1\cf0 \par
+\highlight19\cf18 int\highlight1\cf0  \highlight17\cf16 main\highlight15\cf14\b ()\highlight1\cf0\b0 \par
+\highlight15\cf14\b \{\highlight1\cf0\b0 \par
+    \highlight19\cf18 int\highlight1\cf0  \highlight17\cf16 integerResult\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+    \highlight19\cf18 double\highlight1\cf0  \highlight17\cf16 decimalResult\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+\tab \par
+\tab \highlight5\cf4 //the format specifer is wrong. For integers, it's %d not %lf\par
+\highlight1\cf0     \highlight17\cf16 integerResult\highlight1\cf0  \highlight15\cf14\b =\highlight1\cf0\b0  \highlight7\cf6 77\highlight1\cf0  \highlight15\cf14\b /\highlight1\cf0\b0  \highlight7\cf6 5\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+    \highlight17\cf16 printf\highlight15\cf14\b (\highlight11\cf10\b0 "The value of 77/5 is %d, using integer math\\n"\highlight15\cf14\b ,\highlight1\cf0\b0  \highlight17\cf16 integerResult\highlight15\cf14\b );\highlight1\cf0\b0 \par
+\par
+\tab \highlight5\cf4 //the variable wasn't referenced in the printf function\par
+\highlight1\cf0     \highlight17\cf16 integerResult\highlight1\cf0  \highlight15\cf14\b =\highlight1\cf0\b0  \highlight7\cf6 2\highlight1\cf0  \highlight15\cf14\b +\highlight1\cf0\b0  \highlight7\cf6 3\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+    \highlight17\cf16 printf\highlight15\cf14\b (\highlight11\cf10\b0 "The value of 2+3 is %d\\n"\highlight15\cf14\b ,\highlight1\cf0\b0  \highlight17\cf16 integerResult\highlight15\cf14\b );\highlight1\cf0\b0 \par
+\par
+\tab \highlight5\cf4 //the format specifer is wrong. For doubles, it's %lf not %d\par
+\highlight1\cf0     \highlight17\cf16 decimalResult\highlight1\cf0  \highlight15\cf14\b =\highlight1\cf0\b0  \highlight7\cf6 1.0\highlight1\cf0  \highlight15\cf14\b /\highlight1\cf0\b0  \highlight7\cf6 22.0\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+    \highlight17\cf16 printf\highlight15\cf14\b (\highlight11\cf10\b0 "The value 1.0/22.0 is %lf\\n"\highlight15\cf14\b ,\highlight1\cf0\b0  \highlight17\cf16 decimalResult\highlight15\cf14\b );\highlight1\cf0\b0 \par
+\par
+    \highlight9\cf8\b return\highlight1\cf0\b0  \highlight7\cf6 0\highlight15\cf14\b ;\highlight1\cf0\b0 \par
+\highlight15\cf14\b \}\highlight1\cf0\b0 \par
+\par
+}
